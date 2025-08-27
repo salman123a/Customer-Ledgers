@@ -1,0 +1,24 @@
+name: customer_ledger
+description: A simple customer ledger app.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  share_plus: ^10.0.0
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  excel: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
